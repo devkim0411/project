@@ -2,4 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="board.service.impl.BoardMapper">
 
+<select id="getBoard" resultType="HashMap">
+	SELECT 
+		bno,
+		title,
+		content,
+		writer,
+		reg_date,
+		view_cnt,
+		likeit
+	FROM tb_board
+</select>
 </mapper>
