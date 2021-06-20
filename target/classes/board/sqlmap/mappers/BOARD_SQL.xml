@@ -11,6 +11,8 @@
 		reg_date,
 		view_cnt,
 		likeit
-	FROM tb_board
+	FROM 
+		tb_board
+	ORDER BY bno DESC	
 </select>
 </mapper>
