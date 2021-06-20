@@ -5,11 +5,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 <title>게시판 목록 화면</title>
 </head>
 <body>
-	<h1>게시판 리스트 뽑</h1>
-	<table border="1">
+	<h1>게시판 리스트 </h1>
+	<table border="1" width="70%">
 		<thead>
 			<tr>
 				<td>게시물번호</td>
@@ -33,6 +35,7 @@
 			</tr>
 		</tbody>
 	</table>
+	<button type="button" onclick="inserPage();">게시물 등록</button>
 	
 </body>
 </html>
